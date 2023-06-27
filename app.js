@@ -47,3 +47,10 @@ for (var i =0; i<3;i++){
 }
 
 // console.log(num6)
+
+//template literals ``
+var a =1
+var b= 2
+
+var result = `the sum of ${a} and ${b} is ${a+b} `
+console.log(result)
