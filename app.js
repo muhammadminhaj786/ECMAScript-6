@@ -54,3 +54,31 @@ var b= 2
 
 var result = `the sum of ${a} and ${b} is ${a+b} `
 console.log(result)
+//spread operator  (...)
+//mergeing the element
+var stu1 = ['minhaj','zahim','asad']
+var stu2 = [...stu1,'tanner','owais','adeel','huzaifa']
+console.log(stu2)
+
+//object destructuring
+var stuObj={
+    name:'minhaj',
+    university:"UOK",
+    rollNo:'1234'
+}
+let {name,university,rollNo} = stuObj
+console.log(university)
+
+// array destructuring
+var arr = [50,86,55,1,2,3];
+let [c,d] = arr
+console.log(b)
+
+//program to swap number without creating third variable
+var e = 45;
+var f = 77;
+
+[f,e] = [e,f]
+console.log(f)
+console.log(e)
+
