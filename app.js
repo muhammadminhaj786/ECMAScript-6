@@ -82,3 +82,7 @@ var f = 77;
 console.log(f)
 console.log(e)
 
+//ternary operator
+var age = 20
+var check = age > 30 ? "30 se bara h"
+: " 30 se chota h"
