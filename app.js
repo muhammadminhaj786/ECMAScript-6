@@ -86,3 +86,7 @@ console.log(e)
 var age = 20
 var check = age > 30 ? "30 se bara h"
 : " 30 se chota h"
+//else if
+var another_check = age > 30 ? "30 se bara h"
+:? " 30 se chota h"
+:"koi number nhi h"
