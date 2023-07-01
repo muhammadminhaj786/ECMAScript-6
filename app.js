@@ -90,3 +90,9 @@ var check = age > 30 ? "30 se bara h"
 var another_check = age > 30 ? "30 se bara h"
 :? " 30 se chota h"
 :"koi number nhi h"
+
+
+function foo() {
+    var a = 5
+}
+food() 
