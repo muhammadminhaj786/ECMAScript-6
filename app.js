@@ -95,4 +95,10 @@ var another_check = age > 30 ? "30 se bara h"
 function foo() {
     var a = 5
 }
-food() 
+foo() 
+
+//arrow function
+let foo = () => () {
+    console.log("this is arrow function ") 
+}
+foo() 
