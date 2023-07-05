@@ -102,3 +102,20 @@ let foo = () => () {
     console.log("this is arrow function ") 
 }
 foo() 
+
+//promises
+const myPromise = new promise(function (resolve,reject){
+    var age = 20
+    if(age===20){
+        resolve('allow')
+    }else{
+        reject('not allow')
+    }
+})
+.then(function (resolve){
+    console.log(resolve,'resolve')
+}
+.catch(function(error){
+    console.log(reject,'reject')
+}
+       
