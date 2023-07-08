@@ -119,3 +119,12 @@ const myPromise = new promise(function (resolve,reject){
     console.log(reject,'reject')
 }
        
+//classes
+class Student() {
+      constrictor (name, email) {
+      this.name = name
+      this.email = email
+    }
+}
+let std1 = new ("Minhaj", "min@gmail.com" ) 
+console.log(std1) 
