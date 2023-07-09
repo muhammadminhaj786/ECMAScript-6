@@ -128,3 +128,12 @@ class Student() {
 }
 let std1 = new ("Minhaj", "min@gmail.com" ) 
 console.log(std1) 
+
+// merging two classes
+class School extends student() {
+    constrictor (name, email, school){
+        super(name, email) 
+        this.school = school
+                }
+}
+let std2 = new School("owais", "owaid@gmail.com", " smit") 
