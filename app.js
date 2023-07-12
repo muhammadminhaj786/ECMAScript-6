@@ -137,3 +137,23 @@ class School extends student() {
                 }
 }
 let std2 = new School("owais", "owaid@gmail.com", " smit") 
+
+//try and catch
+var myPromise = new promise(function (resolve,reject){
+    try() {
+        var age = 20
+        if(age===20){
+           resolve('allow')
+        }else{
+            reject('not allow')
+    }
+     catch() {}
+})
+.then(function (resolve){
+    console.log(resolve,'resolve')
+}
+.catch(function(error){
+    console.log(reject,'reject')
+}
+function () {}   
+       
