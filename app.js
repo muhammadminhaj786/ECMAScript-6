@@ -157,3 +157,9 @@ var myPromise = new promise(function (resolve,reject){
 }
 function () {}   
        
+//async and await
+async function foo() {
+    await console.log("hello") 
+    }
+foo() 
+         
