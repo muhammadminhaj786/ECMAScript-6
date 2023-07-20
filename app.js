@@ -4,7 +4,7 @@
 //2) var can be re declared and re initilize
 
 function foo(){
-    var num = 10j;
+    var num = 10;
     //var only access in function
     console.log(num)
 }
@@ -179,6 +179,7 @@ async function foo() {
     }
 foo() 
 
+//creating a palindrome function
 // find the length of a string
 const len = string.length;
 
@@ -192,4 +193,7 @@ for (let i = 0; i < len / 2; i++) {
 }
 return 'It is a palindrome';
 
+var a = function(){
+    console.log('func')
+        }
          
