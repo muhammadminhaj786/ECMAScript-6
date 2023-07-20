@@ -4,7 +4,7 @@
 //2) var can be re declared and re initilize
 
 function foo(){
-    var num = 10;
+    var num = 10j;
     //var only access in function
     console.log(num)
 }
