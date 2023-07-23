@@ -205,3 +205,12 @@ const createPerson = (name, age, gender) => {
     gender
   };
 };
+//ES6 provides a new syntax to create objects, using the class keyword.
+//In ES5, an object can be created by defining a constructor function and using the new keyword to instantiate the object.
+class Vegetable{
+  constructor(name){
+    this.name = name
+  }
+}
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
