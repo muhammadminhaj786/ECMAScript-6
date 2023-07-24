@@ -3,12 +3,12 @@
 //1) var is function scope
 //2) var can be re declared and re initilize
 
-function foo(){
+function fooe(){
     var num = 10;
     //var only access in function
     console.log(num)
 }
-foo()
+fooe()
 // console.log(num)
 var num1 = 12
 var num1 = 20
