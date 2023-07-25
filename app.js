@@ -215,8 +215,13 @@ class Vegetable{
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
 
-//Regression in js
+//Regex in js
 //test() method
 let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString);
+
+//.match method
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
