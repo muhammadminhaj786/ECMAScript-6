@@ -214,3 +214,9 @@ class Vegetable{
 }
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
+
+//Regression in js
+//test() method
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString);
