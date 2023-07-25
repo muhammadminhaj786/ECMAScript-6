@@ -225,3 +225,32 @@ let result = myRegex.test(myString);
 let extractStr = "Extract the word 'coding' from this string.";
 let codingRegex = /coding/; // Change this line
 let result = extractStr.match(codingRegex); // Change this line
+
+//for global and insensitive flag, use
+// /abx/gi
+//for range, use
+// /[a-z0-0]/
+//for negated character, use ^
+// /[^abc]/gi
+// for Match Characters that Occur One or More Times, use (+)
+// /a+/gi
+//for Match Characters that Occur Zero or More Times , use (*)
+//  /a*/
+//for lazy matching, use (?)
+// /a[a-r].?/
+// for Match Ending String Patterns, use ($)
+//  /end$/
+// for Match All Letters and Numbers use js class (\w)  \w is equal to => [A-Za-z0-9_]
+// /\w/gi
+//for Match Everything But Letters and Numbers, user (\W)  is equal to => [^A-Za-z0-9_]
+// /\W/gi
+// for Match All Numbers, use \d
+// /\d/
+// for Match All Non-Numbers, use \D
+// /\D/
+
+
+//Create a single regex that matches all characters that are not a number or a vowel. Remember to include the appropriate flags in the regex.
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi; 
+let result = quoteSample.match(myRegex); 
