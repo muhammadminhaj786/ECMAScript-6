@@ -259,3 +259,11 @@ let result = extractStr.match(codingRegex); // Change this line
 let quoteSample = "3 blind mice.";
 let myRegex = /[^aeiou0-9]/gi; 
 let result = quoteSample.match(myRegex); 
+
+//regex cpmpleted
+
+//
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
