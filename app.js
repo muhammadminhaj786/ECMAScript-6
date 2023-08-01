@@ -267,3 +267,16 @@ let receivables = 10;
 let payables = 8;
 let netWorkingCapital = receivables - payables;
 console.log(`Net working capital is: ${netWorkingCapital}`);
+
+
+//factorial
+function factorialize(num) {
+  let product = 1;
+  for (let i = 2; i <= num; i++) {
+    product *= i;
+  }
+  return product;
+}
+
+factorialize(5);
+
