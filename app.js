@@ -51,7 +51,7 @@ for (var i =0; i<3;i++){
 //template literals ``
 var a =1
 var b= 2
-
+var c = 3
 var result = `the sum of ${a} and ${b} is ${a+b} `
 console.log(result)
 //spread operator  (...)
